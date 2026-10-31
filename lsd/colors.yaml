@@ -1,0 +1,41 @@
+# 256-colour codes nearest the Nebula palette on charcoal (lsd 1.0.0 does not accept
+# #hex here): 80 teal, 210 rose, 216 apricot, 123 sky, 183 lilac,
+# 111 periwinkle, 103 fog, 60 dusk.
+user: 183
+group: 103
+permission:
+  read: 103
+  write: 183
+  exec: 80
+  exec-sticky: 80
+  no-access: 60
+  octal: 111
+  acl: 111
+  context: 111
+date:
+  hour-old: 183
+  day-old: 123
+  older: 60
+size:
+  none: 60
+  small: 123
+  medium: 183
+  large: 210
+inode:
+  valid: 123
+  invalid: 210
+links:
+  valid: 111
+  invalid: 210
+tree-edge: 60
+git-status:
+  default: 60
+  unmodified: 60
+  ignored: 60
+  new-in-index: 123
+  new-in-workdir: 123
+  typechange: 183
+  deleted: 210
+  renamed: 111
+  modified: 216
+  conflicted: 210
