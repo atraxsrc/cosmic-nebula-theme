@@ -24,4 +24,4 @@ fi
 
 echo
 echo "Done. In Claude Desktop press Ctrl+Shift+T and pick cosmic-nebula."
-echo "Nebula is dark only; Settings -> Appearance changes nothing."
+echo "Nebula is the dark half; Settings -> Appearance -> Light shows Nebula Day."
