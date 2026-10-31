@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Nebula - userContent.css
+   Ported from the DarkGold baseline, recoloured for the COSMIC Nebula palette
+
+   New tab / home / private pages only:
+     - teal accent and focus, periwinkle links
+     - teal focus ring on shortcut tiles, teal personalize button
+     - shortcut artwork hidden (tiles stay, icons go blank)
+   No size / position changes.
+
+   Install:  chrome/userContent.css   (same pref + restart as userChrome.css)
+   ========================================================================== */
+
+@-moz-document url-prefix("about:newtab"),
+               url-prefix("about:home"),
+               url-prefix("about:privatebrowsing") {
+
+  :root {
+    --newtab-primary-action-background: #4ECDC4 !important;
+    --newtab-primary-action-background-dimmed: rgba(78, 205, 196, 0.25) !important;
+
+    --color-accent-primary: #4ECDC4 !important;
+    --color-accent-primary-hover: #66D4CC !important;
+    --color-accent-primary-active: #4ECDC4 !important;
+
+    --newtab-focus-border: #4ECDC4 !important;
+    --newtab-focus-outline: #4ECDC4 !important;
+    --newtab-textbox-focus-color: #4ECDC4 !important;
+
+    --in-content-accent-color: #4ECDC4 !important;
+    --in-content-accent-color-active: #82EEFF !important;
+    --in-content-focus-outline-color: #4ECDC4 !important;
+
+    --link-color: #96AAFF !important;
+    --link-color-hover: #EFEDF2 !important;
+
+    --focus-outline-color: #4ECDC4 !important;
+    --focus-outline: 2px solid #4ECDC4 !important;
+    --newtab-button-focus-border: #4ECDC4 !important;
+    --button-background-color: #4ECDC4 !important;
+    --button-text-color: #181C22 !important;
+  }
+
+  .top-site-outer:is(:focus, :focus-visible, .active) .tile,
+  .top-site-outer .top-site-button:focus .tile,
+  .top-site-outer .top-site-button:focus-visible .tile {
+    outline: 2px solid #4ECDC4 !important;
+    border-color: #4ECDC4 !important;
+  }
+
+  .personalize-button {
+    background-color: #4ECDC4 !important;
+    color: #181C22 !important;
+  }
+
+  /* Hide shortcut artwork so tiles stay blank */
+  .top-site-icon,
+  .top-site-icon.rich-icon,
+  .top-site-icon.default-icon,
+  .screenshot,
+  .screenshot.active,
+  .letter-fallback {
+    background-image: none !important;
+    background-color: transparent !important;
+    opacity: 0 !important;
+  }
+}

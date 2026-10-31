@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Cosmic Nebula",
+  "version": "1.0",
+  "description": "Charcoal theme from the COSMIC Nebula rice: sky icons, one teal accent.",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "frame": [24, 28, 34],
+      "frame_inactive": [24, 28, 34],
+      "frame_incognito": [24, 28, 34],
+      "frame_incognito_inactive": [24, 28, 34],
+      "background_tab": [24, 28, 34],
+      "background_tab_inactive": [24, 28, 34],
+      "background_tab_incognito": [24, 28, 34],
+      "background_tab_incognito_inactive": [24, 28, 34],
+      "toolbar": [32, 37, 44],
+      "tab_text": [78, 205, 196],
+      "tab_background_text": [130, 238, 255],
+      "tab_background_text_inactive": [130, 238, 255],
+      "tab_background_text_incognito": [130, 238, 255],
+      "tab_background_text_incognito_inactive": [130, 238, 255],
+      "bookmark_text": [224, 230, 237],
+      "toolbar_button_icon": [130, 238, 255],
+      "omnibox_background": [44, 52, 68],
+      "omnibox_text": [224, 230, 237],
+      "ntp_background": [24, 28, 34],
+      "ntp_text": [224, 230, 237],
+      "ntp_link": [78, 205, 196]
+    }
+  }
+}

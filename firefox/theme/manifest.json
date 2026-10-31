@@ -1,0 +1,50 @@
+{
+  "manifest_version": 2,
+  "name": "Cosmic Nebula",
+  "version": "1.0",
+  "description": "Charcoal theme from the COSMIC Nebula rice: sky icons, one teal accent.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{67ec6b4f-eeeb-438d-9fb4-0102ea5d3a2a}"
+    }
+  },
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+  "theme": {
+    "colors": {
+      "toolbar": "#20252C",
+      "toolbar_text": "#e0e6ed",
+      "frame": "#181C22",
+      "tab_background_text": "#82eeff",
+      "tab_text": "#4ecdc4",
+      "toolbar_field": "#2c3444",
+      "toolbar_field_text": "#e0e6ed",
+      "toolbar_field_border_focus": "#4ECDC4",
+      "toolbar_field_highlight": "#4ECDC4",
+      "toolbar_field_highlight_text": "#181C22",
+      "tab_line": "#4ECDC4",
+      "popup": "#20252C",
+      "popup_text": "#e0e6ed",
+      "button_background_active": "#4ECDC4",
+      "button_background_hover": "#2c3444",
+      "frame_inactive": "#181C22",
+      "icons_attention": "#4ECDC4",
+      "icons": "#82eeff",
+      "ntp_background": "#181C22",
+      "ntp_text": "#e0e6ed",
+      "popup_border": "#96AAFF",
+      "popup_highlight_text": "#181C22",
+      "popup_highlight": "#4ECDC4",
+      "sidebar_border": "#2c3444",
+      "sidebar_highlight_text": "#181C22",
+      "sidebar_highlight": "#4ECDC4",
+      "sidebar_text": "#e0e6ed",
+      "tab_loading": "#4ECDC4"
+    }
+  }
+}
