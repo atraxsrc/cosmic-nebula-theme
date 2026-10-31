@@ -1,7 +1,7 @@
 {
   "name": "cosmic-nebula-theme",
-  "displayName": "Cosmic Nebula",
-  "description": "Dark colour theme from the COSMIC Nebula rice, syntax as in its Neovim scheme.",
+  "displayName": "Cosmic Nebula / Cosmic Nebula Day",
+  "description": "Cosmic Nebula (dark) and Cosmic Nebula Day (light), the COSMIC rice pair, for Cursor and VS Code",
   "version": "1.0.0",
   "publisher": "atraxsrc",
   "license": "MIT",
@@ -23,8 +23,10 @@
   "keywords": [
     "theme",
     "dark",
+    "light",
     "cosmic",
     "nebula",
+    "nebuladay",
     "cursor"
   ],
   "contributes": {
@@ -33,6 +35,11 @@
         "label": "Cosmic Nebula",
         "uiTheme": "vs-dark",
         "path": "./themes/cosmic-nebula-color-theme.json"
+      },
+      {
+        "label": "Cosmic Nebula Day",
+        "uiTheme": "vs",
+        "path": "./themes/cosmic-nebuladay-color-theme.json"
       }
     ]
   }
