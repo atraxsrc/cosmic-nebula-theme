@@ -13,6 +13,7 @@ the light half is [cosmic-nebuladay-theme](https://github.com/atraxsrc/cosmic-ne
 ![COSMIC](https://img.shields.io/badge/COSMIC-1.0.0-82eeff?style=for-the-badge)
 ![Nebula](https://img.shields.io/badge/Theme-Nebula-181c22?style=for-the-badge&labelColor=4ecdc4)
 ![Firefox](https://img.shields.io/badge/Firefox-Nebula-4ecdc4?style=for-the-badge&logo=firefox-browser&logoColor=white)
+[![Gallery](https://img.shields.io/badge/Gallery-All_rices-4ecdc4?style=for-the-badge)](https://atraxsrc.github.io/cosmic-rices/)
 ![License](https://img.shields.io/badge/License-MIT-848e9f?style=for-the-badge)
 
 </div>
