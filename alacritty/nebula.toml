@@ -1,0 +1,80 @@
+# Nebula for Alacritty, part of cosmic-nebula-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./alacritty/install.sh puts this in ~/.config/alacritty/themes/,
+# then in ~/.config/alacritty/alacritty.toml:
+#   [general]
+#   import = ["~/.config/alacritty/themes/nebula.toml"]
+# (Alacritty 0.13: a top-level `import = [...]` line instead.)
+
+[colors.primary]
+background = "#181C22"
+foreground = "#E0E6ED"
+bright_foreground = "#EFEDF2"
+dim_foreground = "#848E9F"
+
+[colors.cursor]
+text = "#181C22"
+cursor = "#4ECDC4"
+
+[colors.vi_mode_cursor]
+text = "#181C22"
+cursor = "#FFB38A"
+
+[colors.selection]
+text = "CellForeground"
+background = "#2C3444"
+
+[colors.search.matches]
+foreground = "#181C22"
+background = "#C9AFF0"
+
+[colors.search.focused_match]
+foreground = "#181C22"
+background = "#4ECDC4"
+
+[colors.hints.start]
+foreground = "#181C22"
+background = "#FFB38A"
+
+[colors.hints.end]
+foreground = "#181C22"
+background = "#C9AFF0"
+
+[colors.footer_bar]
+foreground = "#E0E6ED"
+background = "#20252C"
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.normal]
+black   = "#101318"
+red     = "#FF7B92"
+green   = "#82EEFF"
+yellow  = "#C9AFF0"
+blue    = "#4ECDC4"
+magenta = "#FFB38A"
+cyan    = "#82EEFF"
+white   = "#D1D7E0"
+
+[colors.bright]
+black   = "#5B6478"
+red     = "#FFA4B4"
+green   = "#A6F3FF"
+yellow  = "#DAC9F5"
+blue    = "#66D4CC"
+magenta = "#FFCEB3"
+cyan    = "#B388EB"
+white   = "#EFEDF2"
+
+[colors.dim]
+black   = "#181C22"
+red     = "#FF3457"
+green   = "#3BE4FF"
+yellow  = "#9B6AE3"
+blue    = "#4F62B8"
+magenta = "#FF7E38"
+cyan    = "#4FE7FF"
+white   = "#9AA3B5"

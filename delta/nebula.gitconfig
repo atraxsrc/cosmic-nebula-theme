@@ -1,0 +1,56 @@
+# Nebula for delta (the git diff pager), part of cosmic-nebula-theme (MIT).
+# Removed lines in the error colour, added lines in the success colour, both
+# on the editor's container; changed words on a solid error / success block
+# with the editor background as text (the same as DiffAdd / DiffDelete /
+# DiffText in Neovim). Code inside the diff uses the bat Nebula theme, so run
+# ./bat/install.sh first.
+#
+# Install: ./delta/install.sh puts this in ~/.config/delta/, then add to
+# ~/.gitconfig (the installer prints this, it never edits ~/.gitconfig):
+#   [include]
+#       path = ~/.config/delta/nebula.gitconfig
+# and, if delta is not your pager yet:
+#   [core]
+#       pager = delta
+#   [interactive]
+#       diffFilter = delta --color-only
+
+[delta]
+    features = nebula
+
+[delta "nebula"]
+    dark = true
+    syntax-theme = Nebula
+    navigate = true
+    line-numbers = true
+
+    file-style = bold "#4ECDC4"
+    file-decoration-style = "#5B6478" ul
+    hunk-header-style = file line-number syntax
+    hunk-header-decoration-style = "#5B6478" box
+    hunk-header-file-style = "#96AAFF"
+    hunk-header-line-number-style = "#C9AFF0"
+
+    minus-style = "#FF7B92" "#20252C"
+    minus-emph-style = bold "#181C22" "#FF7B92"
+    minus-non-emph-style = "#FF7B92" "#20252C"
+    plus-style = "#82EEFF" "#20252C"
+    plus-emph-style = bold "#181C22" "#82EEFF"
+    plus-non-emph-style = "#82EEFF" "#20252C"
+    zero-style = syntax
+    whitespace-error-style = "#181C22" "#FFB38A"
+
+    line-numbers-left-style = "#5B6478"
+    line-numbers-right-style = "#5B6478"
+    line-numbers-minus-style = "#FF7B92"
+    line-numbers-plus-style = "#82EEFF"
+    line-numbers-zero-style = "#5B6478"
+
+    commit-style = bold "#C9AFF0"
+    commit-decoration-style = "#5B6478" box
+    blame-palette = "#181C22 #20252C #272C34"
+    blame-code-style = syntax
+    merge-conflict-begin-symbol = ▼
+    merge-conflict-end-symbol = ▲
+    merge-conflict-ours-diff-header-style = bold "#82EEFF"
+    merge-conflict-theirs-diff-header-style = bold "#FFB38A"

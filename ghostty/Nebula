@@ -1,0 +1,45 @@
+# Nebula for Ghostty, part of cosmic-nebula-theme (MIT).
+# Colours follow the COSMIC Terminal scheme (cosmic-term/).
+#
+# Install: ./ghostty/install.sh puts this in ~/.config/ghostty/themes/, then in
+# ~/.config/ghostty/config:
+#   theme = Nebula
+# or, with the Nebula Day half installed too, following COSMIC's Dark / Light toggle:
+#   theme = dark:Nebula,light:NebulaDay
+
+background = #181C22
+foreground = #E0E6ED
+
+cursor-color = #4ECDC4
+cursor-text = #181C22
+
+selection-background = #2C3444
+selection-foreground = #E0E6ED
+
+split-divider-color = #5B6478
+unfocused-split-fill = #181C22
+
+# black
+palette = 0=#101318
+palette = 8=#5B6478
+# red
+palette = 1=#FF7B92
+palette = 9=#FFA4B4
+# green
+palette = 2=#82EEFF
+palette = 10=#A6F3FF
+# yellow
+palette = 3=#C9AFF0
+palette = 11=#DAC9F5
+# blue
+palette = 4=#4ECDC4
+palette = 12=#66D4CC
+# magenta
+palette = 5=#FFB38A
+palette = 13=#FFCEB3
+# cyan
+palette = 6=#82EEFF
+palette = 14=#B388EB
+# white
+palette = 7=#D1D7E0
+palette = 15=#EFEDF2
