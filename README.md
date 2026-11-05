@@ -129,6 +129,8 @@ carry it with charcoal text on top.
 │   ├── config.yaml              # theme: custom
 │   ├── colors.yaml              # permission / size / date / git columns
 │   └── install.sh
+├── notesnook
+│   └── cosmic-nebula.json       # Notesnook theme, Nebula (dark)
 ├── nvim                         # Neovim colorscheme, LazyVim spec, RON syntax, install.sh
 ├── obsidian
 │   ├── cosmic-nebula.css        # CSS snippet, Nebula (dark) + Nebula Day (light)
@@ -415,6 +417,22 @@ in ![#C9AFF0](https://placehold.co/12x12/c9aff0/c9aff0.png) `#C9AFF0`. The same 
 
 It copies the file into the vault's `.obsidian/snippets/`. Snippets are per
 vault, so run it once per vault.
+
+---
+
+## Notesnook
+
+`notesnook/cosmic-nebula.json` is a [Notesnook](https://notesnook.com/) theme for Nebula,
+built from the same palette as the Obsidian snippet: window, list and sidebar
+backgrounds, text, accent, selection and the error / success colours. A
+Notesnook theme holds one colour scheme, so the NebulaDay half ships as
+`notesnook/cosmic-nebuladay.json` in cosmic-nebuladay-theme; load both if you switch between
+dark and light.
+
+```text
+Notesnook → Settings → Appearance → Themes → Load from file
+→ pick notesnook/cosmic-nebula.json → Set as default
+```
 
 ---
 
