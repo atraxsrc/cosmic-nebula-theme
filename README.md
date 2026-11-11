@@ -178,13 +178,24 @@ carry it with charcoal text on top.
 
 Settings → Desktop → Appearance → **Dark** → **Import** → `cosmic/Nebula.ron`
 
+Or from a terminal in this folder, which takes the whole file:
+
+```bash
+cosmic-settings appearance import cosmic/Nebula.ron
+```
+
+Since the COSMIC builds after 1.11.0 the **Import** button keeps your current
+frosted glass (level, on/off per surface, opacity), gaps and active hint, and
+takes only the colours, corners, fonts and icons from the file. The terminal
+command applies this rice's frosted glass too, and so does `themebox flip`.
+
 Accent is teal ![#4ECDC4](https://placehold.co/12x12/4ecdc4/4ecdc4.png) `#4ECDC4`. Use the `+` control if you want a custom swatch.
 
 Frosted glass is on in the `.ron` at `frosted: Low` with an opacity table of
 0.66 to 0.96, tinted with the palette's dim grey, for windows, panel,
 applets and system UI (maximized apps stay solid), and corners are squared
 (`radius_*: 2.0`), the same as the DarkGold baseline. Adjust frosted glass on
-Appearance → Style → Frosted glass after import; those sliders survive a theme switch.
+Appearance → Style → Frosted glass after import; the Import button keeps those sliders.
 
 Export from Appearance if you tweak backgrounds / tints so you do not lose them.
 
